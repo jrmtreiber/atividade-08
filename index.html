@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JS</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="p_cabecalho">
+            <div class="cabecalho">
+                <h1>ATIVIDADE 08</h1>
+            </div>
+            <div class="redes">
+                <a target="_blank" href="https://www.instagram.com/jrmtreiber/"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="p_principal">
+            <div class="quad">
+                <!-- <img src="../IMGS/fundo2.gif" alt="gif_fundo" class="blurred-image"> -->
+                <div class="questions">
+                    <p>Informe o tempo de cada ROUND em minutos</p>
+                    <input type="number" id="round-time" placeholder="Minutos" min="1">
+                </div>
+                <div class="questions2">
+                    <div class="perguntas">
+                        <p>Informe o tempo de INTERVALO em minutos</p>
+                        <input type="number" id="interval-time" placeholder="Minutos" min="1">
+                    </div>
+                    <div class="perguntas">
+                        <p>Quantidade de ROUNDs</p>
+                        <input type="number" id="rounds" placeholder="Rodadas" min="1">
+                    </div>
+                    <div class="button_iniciar">
+                        <button onclick="iniciarLuta()">Iniciar</button>
+                    </div>
+                </div>
+        
+                <div class="cmc_p">
+                    <h1 id="começar">COMEÇANDO</h1>
+                </div>
+            </div>
+        </div>                  
+    </main>
+
+    <footer></footer>
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
